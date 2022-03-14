@@ -1,0 +1,77 @@
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 720px){
+    header{
+        background-size: cover;
+    }
+    #demo-page-container{
+        display: none;
+    }
+    .menu-items{
+        display: none;
+    }
+    #section2{
+        flex-direction: column;
+    }
+    .section2-content{
+        width: 100%;
+    }
+    #section3-content{
+        flex-direction: column;
+        align-items: center;
+        max-width: 500px;
+    }
+    .our-vegan-store-content{
+        width: 100%;
+    }
+    #section4-card-column{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section4-card{
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    #section5{
+        flex-direction: column;
+        width: 100%;
+    }
+    #left-side-image{
+        width: 100%
+    }
+    #right-side-image{
+        width: 100%
+    }
+    #user-name{
+        height: 15%;
+        width: 80%;
+        border-radius: 2%;
+    }
+    #section6{
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    }
+    #section7-video{
+        width: 80%;
+        height: 20em;
+    }
+    #section7-video iframe{
+        width: 100%;
+        height: 100%;
+    }
+    #section8{
+        flex-direction: column;
+        padding: 5%;
+    }
+    #section8-left-side,#section8-right-side{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #submit-button{
+        margin-bottom: 0;
+    }
+    footer{
+        margin-top: 0;
+    }
+}
